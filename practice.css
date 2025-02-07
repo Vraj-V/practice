@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: normal;
+    top: 10px;
+
+}
+div{
+    border: 2px solid #0a0c0c;
+    width: 50px;
+    height: 100px;
+}
+
+
+.container{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+justify-content: center;
+/* align-items: center;
+align-content: center; */
+}
+#box1{
+
+    background-color: yellow;
+    align-self:baseline;
+    flex-grow: 1;
+
+    
+}
+#box2{
+
+    background-color: green;
+    height: 200px;
+    
+    flex-grow: 2;
+    /* align-self: flex-end; */
+    /* NOTE: this
+        this 'align self' property is used to align "INDIVIDUAL ITEMS" and it has highest priporty of 
+        in aligning the items.
+        "align items in  "CROSS -AXIS".  */
+}
+#box3{
+
+    background-color: red;
+    height: 50px;
+}
+#box4{
+
+    background-color: blue;
+    
+}
+
+#box5{
+
+    background-color: cyan;
+    
+}
